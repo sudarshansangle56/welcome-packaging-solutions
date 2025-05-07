@@ -1,13 +1,47 @@
-import React from 'react'
+'use client'; // If using in a Next.js app directory
 
-function page() {
+import React from 'react';
+
+function Page() {
   return (
-    <div>
-       
-      <div className="text-lg font-semibold">Akshay Sonekar</div>
-      <div className="text-md">Mob.: <a href="tel:9970346555" className="text-blue-600 underline">9970346555</a></div>
+    <div className="w-full h-screen flex">
+      {/* Left Box: Contact Info */}
+      <div className="w-1/2 bg-blue-50 p-8 flex flex-col justify-center items-start">
+        <h2 className="text-3xl font-semibold mb-2">Akshay Sonekar</h2>
+        <p className="text-lg">
+          Mob.: <a href="tel:9970346555" className="text-blue-600 underline">9970346555</a>
+        </p>
+      </div>
+
+      {/* Right Box: Contact Form */}
+      <div className="w-1/2 bg-white p-8 flex flex-col justify-center">
+        <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
+        <form className="space-y-4">
+          <input
+            type="text"
+            placeholder="Enter your name"
+            className="w-full p-3 border border-gray-300 rounded"
+          />
+          <input
+            type="email"
+            placeholder="Enter your email"
+            className="w-full p-3 border border-gray-300 rounded"
+          />
+          <textarea
+            rows="5"
+            placeholder="Enter your message"
+            className="w-full p-3 border border-gray-300 rounded"
+          />
+          <button
+            type="submit"
+            className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
     </div>
-  )
+  );
 }
 
-export default page
+export default Page;
