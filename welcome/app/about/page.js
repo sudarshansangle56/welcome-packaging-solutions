@@ -1,10 +1,8 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 
 function page() {
   return (
     <div>
-      <Navbar/>
    <div className="max-w-4xl mx-auto p-6">
         <div className="bg-blue-50 rounded-xl shadow-md p-6 space-y-4">
           <div className="text-3xl font-bold text-blue-700">Welcome Packaging Solution</div>

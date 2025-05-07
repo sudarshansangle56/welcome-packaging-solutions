@@ -1,37 +1,52 @@
-import React from 'react';
-import Navbar from '../components/Navbar';
-import Link from 'next/link';
+import React from "react";
+import Link from "next/link";
+import Cards from "../components/Cards";
 
 function Main() {
   return (
-    <div className="min-h-screen bg-white text-gray-800">
-      <Navbar />
-      <div className="pl-[50px] ">
-        <h1 className="text-[250px] font-bold text-[#22222296]">Welcome</h1>
-        <p className="text-2xl font-medium text-gray-600 mb-6">Packaging Solution</p>
+    <div>
+      <div className="min-h-[400px]  ml-6  bg-[#ffffff] text-gray-800 px-6 py-12">
+        <div className="flex flex-col  w-[50%] items-start">
+          <h1 className="text-[150px] font-bold text-[#22222296] leading-[130px]">
+            Welcome
+          </h1>
+          <p className="text-[17px] text-gray-600">
+            We are your trusted, industry-leading manufacturer of made to order,
+            high-quality poly bags and plastic film products made right here in
+            the USA.
+          </p>
+        </div>
 
         <Link href="/about">
-          <button className="px-6 py-2 text-sm bg-blue-600 text-white rounded-full hover:bg-blue-700 transition">
+          <button className="mt-2 px-6 py-2 text-sm bg-blue-600 text-white rounded-full hover:bg-blue-700 transition">
             Explore
           </button>
         </Link>
+      </div>
 
-        <div className="mt-12 text-lg text-left max-w-3xl mx-auto space-y-4">
-          <p>
-            We are <strong>Welcome Packaging Solution</strong>, located in <strong>Kopergaon, Dist. Ahmednagar</strong>.
-            We specialize in manufacturing high-quality packaging materials including <strong>BOPP Bags, PP Bags, Leno Bags, and HDPE Bags</strong>.
-          </p>
-          <p>
-            Our mission is to provide reliable and innovative packaging solutions to businesses across India, ensuring durability and sustainability in every product we deliver.
-          </p>
-          <p>
-            Contact Person: <strong>Akshay Sonekar</strong> <br />
-            Mobile: <a href="tel:9970346555" className="text-blue-600 underline">9970346555</a><br />
-            Email: <a href="mailto:welcomepackagingsolution@gmail.com" className="text-blue-600 underline">welcomepackagingsolution@gmail.com</a>
-          </p>
-          <p>
-            Address: Plot No.B-45, Cooperative Industrial Estate, Station Road, Kopergaon - 423603, Maharashtra.
-          </p>
+      <div className="second-phase p-6 h-min-[350px] flex flex-col items-center justify-center">
+        <h1 className=" mt-2 text-[50px] font-bold text-[#22222296]">
+          Custom Products to Meet Your Needs
+        </h1>
+        <p className=" w-[60%] text-[17px]">
+          We manufacture and supply custom poly bags and plastic film products
+          including plastic liners, pallet covers, polyethylene tubing, and SWS
+          and CF sheeting. Our products are manufactured to your custom
+          specifications and according to the highest quality standards. With
+          2-3 week lead times, we are dedicated to supplying the custom poly bag
+          and plastic film products you need.
+        </p>
+      </div>
+
+      <div className="second-phase p-6 h-min-[550px] flex flex-col items-center justify-center">
+        <h1 className=" mt-2 text-[50px] font-bold text-[#22222296]">
+          Products
+        </h1>
+        <div className="flex items-center justify-center gap-6 px-7 flex-wrap">
+          <Cards />
+          <Cards />
+          <Cards />
+          <Cards />
         </div>
       </div>
     </div>

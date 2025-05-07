@@ -14,9 +14,9 @@ function Navbar() {
   ];
 
   return (
-    <nav className="bg-red-300 w-full">
+    <nav className="bg-[#ffff] border-b-1 border-[#222] w-full">
       <div className="flex justify-between items-center h-20 px-6">
-        <h2 className="text-xl font-bold">MySite</h2>
+        <h2 className="text-xl font-bold">WelCome</h2>
         <div
           className="md:hidden cursor-pointer"
           onClick={() => setIsOpen(!isOpen)}
