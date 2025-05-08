@@ -7,9 +7,10 @@ function Page() {
     <div className="w-full h-screen flex">
       {/* Left Box: Contact Info */}
       <div className="w-1/2 bg-blue-50 p-8 flex flex-col justify-center items-start">
+      <div className="text-5xl font-bold text-blue-700">Welcome Packaging Solution</div>
         <h2 className="text-3xl font-semibold mb-2">Akshay Sonekar</h2>
         <p className="text-lg">
-          Mob.: <a href="tel:9970346555" className="text-blue-600 underline">9970346555</a>
+          Mob: <a href="tel:9970346555" className="text-blue-600 underline">9970346555</a>
         </p>
       </div>
 

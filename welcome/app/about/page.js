@@ -1,28 +1,60 @@
-import React from 'react'
+import React from "react";
 
 function page() {
   return (
     <div>
-   <div className="max-w-4xl mx-auto p-6">
-        <div className="bg-blue-50 rounded-xl shadow-md p-6 space-y-4">
-          <div className="text-3xl font-bold text-blue-700">Welcome Packaging Solution</div>
-          <div className="text-lg font-semibold">Akshay Sonekar</div>
-          <div className="text-md">Mob.: <a href="tel:9970346555" className="text-blue-600 underline">9970346555</a></div>
-          <div className="text-md font-medium">
-            Manufacturer:
-            <span className="text-gray-700"> BOPP Bag, PP Bag, Leno Bag, HDPE Bag</span>
-          </div>
-          <div className="text-md">
-            Plot No.B-45, Cooperative Industrial Estate, Station Road, Kopergaon - 423603<br />
-            Dist. Ahmednagar
-          </div>
-          <div className="text-md">
-            Email: <a href="mailto:welcomepackagingsolution@gmail.com" className="text-blue-600 underline">welcomepackagingsolution@gmail.com</a>
-          </div>
-        </div>
+      <div className="min-h-[500px] w-[70%] mx-auto p-6">
+        <h1 className="text-[40px]  font-bold text-[#22222296] leading-[70px]">
+          Welcome Packaging Solution
+        </h1>
+        <p>
+          our company provide Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Autem dignissimos sit illo ratione molestiae hic consequuntur
+          illum ut! Natus culpa laboriosam et? Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit. Maxime corporis repellat a tenetur! Ea
+          laudantium vero iure obcaecati nobis consequuntur cum nemo dolor
+          reiciendis culpa repellendus distinctio saepe recusandae modi, minus
+          expedita laborum.
+        </p>
+        <h1 className="text-[40px]  font-bold text-[#22222296] leading-[70px]">
+          Our Mission
+        </h1>
+        <p>
+          our company provide Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Autem dignissimos sit illo ratione molestiae hic consequuntur
+          illum ut! Natus culpa laboriosam et? Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit. Maxime corporis repellat a tenetur! Ea
+          laudantium vero iure obcaecati nobis consequuntur cum nemo dolor
+          reiciendis culpa repellendus distinctio saepe recusandae modi, minus
+          expedita laborum.
+        </p>
+        <h1 className="text-[40px]  font-bold text-[#22222296] leading-[70px]">
+          How we Work
+        </h1>
+        <p>
+          our company provide Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Autem dignissimos sit illo ratione molestiae hic consequuntur
+          illum ut! Natus culpa laboriosam et? Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit. Maxime corporis repellat a tenetur! Ea
+          laudantium vero iure obcaecati nobis consequuntur cum nemo dolor
+          reiciendis culpa repellendus distinctio saepe recusandae modi, minus
+          expedita laborum.
+        </p>
+        <h1 className="text-[40px]  font-bold text-[#22222296] leading-[70px]">
+         Customers Reviews
+        </h1>
+        <p>
+          our company provide Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Autem dignissimos sit illo ratione molestiae hic consequuntur
+          illum ut! Natus culpa laboriosam et? Lorem ipsum dolor sit amet,
+          consectetur adipisicing elit. Maxime corporis repellat a tenetur! Ea
+          laudantium vero iure obcaecati nobis consequuntur cum nemo dolor
+          reiciendis culpa repellendus distinctio saepe recusandae modi, minus
+          expedita laborum.
+        </p>
+      </div>
     </div>
-    </div>
-  )
+  );
 }
 
-export default page
+export default page;

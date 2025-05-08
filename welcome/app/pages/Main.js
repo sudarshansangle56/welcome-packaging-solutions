@@ -7,10 +7,10 @@ function Main() {
     <div>
       <div className="min-h-[400px] bg-amber-200   bg-[#ffffff] text-gray-800 px-6 py-12">
         <div className="flex flex-col  items-start">
-          <h1 className="text-[150px] font-bold text-[#22222296] leading-[130px]">
-            Welcome
+          <h1 className="text-[80px] font-bold text-[#22222296] leading-[70px]">
+          Welcome <br /> Packaging Solution
           </h1>
-          <p className="text-[17px] w-[50%] text-gray-600">
+          <p className="text-[17px] w-[50%] mt-5 text-gray-600">
             We are your trusted, industry-leading manufacturer of made to order,
             high-quality poly bags and plastic film products made right here in
             the INDIA.
