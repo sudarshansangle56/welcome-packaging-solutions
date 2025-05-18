@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+@theme{
+    --color-primary: #fab02b;
+    --color-secondary: #995300;
+}
+
+*{
+    box-sizing: border-box;
+}

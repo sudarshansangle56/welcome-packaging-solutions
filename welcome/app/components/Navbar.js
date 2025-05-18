@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { Menu } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,9 +15,9 @@ function Navbar() {
   ];
 
   return (
-    <nav className="bg-[#ffff] border-b-1 border-[#222] w-full">
-      <div className="flex justify-between items-center h-20 px-6">
-        <h2 className="text-xl font-bold">WelCome</h2>
+    <nav className="bg-white w-full border-b border-gray-300 sticky top-0 z-10">
+      <div className="flex justify-between items-center h-24 px-10 overflow-hidden">
+        <Image src="/welcome.png" alt="Logo" height={150} width={150} />
         <div
           className="md:hidden cursor-pointer"
           onClick={() => setIsOpen(!isOpen)}
@@ -28,7 +29,7 @@ function Navbar() {
             <Link
               key={item.name}
               href={item.href}
-              className="hover:text-white font-medium"
+              className="hover:text-primary text-secondary font-bold transition active:scale-95"
             >
               {item.name}
             </Link>
