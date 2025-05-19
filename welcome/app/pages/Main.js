@@ -9,13 +9,13 @@ function Main() {
       <div className="min-h-[600px] text-gray-800 px-6 py-12 bg-[url('/polybags-background.jpg')] bg-cover bg-center flex justify-end items-center">
         <div className="flex flex-col w-[45%]">
           <div className="flex flex-col items-start">
-            <h1 className="text-[65px] font-semibold text-secondary leading-[70px]">
+            <h1 className="sm:text-[65px] text-[40px] font-semibold text-secondary leading-[70px]">
               Welcome
             </h1>
-            <h1 className="text-[65px] font-semibold text-secondary leading-[70px]">
+            <h1 className="sm:text-[65px] text-[40px]  font-semibold text-secondary leading-[70px]">
               Packaging Solution
             </h1>
-            <p className="text-[18px] w-[70%] mt-5 text-gray-600">
+            <p className="text-[18px] md:w-[70%] w-[105%] mt-5 text-gray-600">
               We are your trusted, industry-leading manufacturer of made to order,
               high-quality poly bags and plastic film products made right here in
               the INDIA.
@@ -30,7 +30,7 @@ function Main() {
       </div>
 
       <div className="p-6 flex flex-col items-center justify-center py-28">
-        <h1 className=" mt-2 flex items-center justify-center text-5xl font-bold text-secondary">
+        <h1 className=" mt-2 flex items-center justify-center p-5 text-[40px] md:text-5xl font-bold text-secondary">
           Custom Products to Meet Your Needs
         </h1>
         <p className=" w-[60%] text-center py-7 text-lg text-gray-600">
@@ -49,7 +49,7 @@ function Main() {
       <div className="flex justify-center items-center">
         <div className="p-6 relative flex flex-col items-center justify-center w-[70%] border border-gray-300 px-10 py-20">
           <span className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 text-xl font-semibold text-secondary bg-white px-8">Welcome Manufacturing Products</span>
-          <div className="flex items-center justify-center gap-6 px-7">
+          <div className="flex items-center justify-center gap-6 px-7 flex-wrap">
             <Cards
               image="https://m.media-amazon.com/images/I/312M8F7xY+L._AC_UF1000,1000_QL80_.jpg"
               title="BOPP Bag"
@@ -72,7 +72,7 @@ function Main() {
       </div>
 
 
-      <div className="py-28 flex justify-center items-center">
+      <div className="py-28 flex justify-center items-center ">
         <div className="flex flex-col w-[70%] gap-10">
           <div className="flex gap-20">
             <div className="flex flex-1 flex-col gap-6 justify-start">
@@ -87,9 +87,20 @@ function Main() {
               <p className="text-gray-600 text-lg">At Welcome Packaging Agency, our customers are always our top priority. That’s why we work so hard to make high-quality bags that won’t rip or tear and offer fast lead times of 2-3 weeks.</p>
               <p className="text-secondary text-lg font-semibold">We are committed to getting you the custom poly bag, liners and film products you need, when you need them.</p>
             </div>
-            <Image src={"/welcome-home-about.jpg"} alt="Welcome Packaging" className="flex-1" width={500} height={500} />
+             <div>
+              
+             </div>
+             <Image
+  src="/welcome-home-about.jpg"
+  alt="Welcome Packaging"
+  className="hidden md:flex flex-1"
+  width={500}
+  height={500}
+/>
+
+            
           </div>
-          <div className="flex items-center gap-30">
+          <div className="flex flex-wrap items-center justify-center gap-30 ">
             <div className="flex-1">
               <Link href="/contact" className="font-bold px-3 bg-primary text-white rounded-lg hover:bg-secondary hover:text-white transition text-center py-3 active:scale-95" >
                 Contact Us

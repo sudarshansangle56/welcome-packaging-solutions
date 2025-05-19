@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
       <footer className="pb-10">
-        <div className="flex items-center px-10">
+        <div className="flex flex-wrap items-center px-10">
           <div className="flex-1 flex-col flex justify-center items-center pr-16">
             <Image src="/welcome.png" alt="Logo" height={150} width={150} />
             <p className="text-gray-500 text-center">
@@ -21,7 +21,7 @@ function Footer() {
             </div>
           </div>
 
-          <div className="flex-1 flex pl-20">
+          <div className="flex-1 md:gap-2 gap-[50px] flex items-center justify-center pl-20">
             <div className="pt-5 flex-1">
               <h5 className="text-lg font-bold mb-3">Menu</h5>
               <ul className="space-y-2">
@@ -43,7 +43,7 @@ function Footer() {
             <div className="pt-5 flex-1">
               <h5 className="text-lg font-bold mb-3">Contact</h5>
               <ul className="space-y-2">
-                {["000-000-000-0", "xyz@gmail.com"].map(
+                {["9970346555", "Welcome@gmail.com"].map(
                   (item) => (
                     <li key={item}>
                       <a
