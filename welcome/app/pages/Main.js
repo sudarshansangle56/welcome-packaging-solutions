@@ -84,8 +84,8 @@ function Main() {
 {/* 
       <Box /> */}
       <div className="flex justify-center items-center">
-        <div className="p-6 relative flex flex-col items-center justify-center w-[70%] border border-gray-300 ">
-          <div className="flex items-center justify-center gap-6 px-3 w-full flex-wrap bg-[#222] py-3">
+        <div className="p-6 relative flex flex-col items-center justify-center w-[80%]">
+          <div className="flex items-center justify-center sm:gap-10 gap-6 px-3 w-full flex-wrap py-3">
             <Cards
               image="/Sugar.png"
               title="BOPP Bag"
