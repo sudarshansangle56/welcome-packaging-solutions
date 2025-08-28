@@ -1,4 +1,4 @@
-'use client'; // If using in a Next.js app directory
+'use client'; 
 
 import React, { useState } from 'react';
 
@@ -35,8 +35,8 @@ function Page() {
 
   return (
     <div className="w-full h-screen flex">
-      {/* Left Box: Contact Info */}
-      <div className="w-1/2 bg-blue-50 p-8 flex flex-col justify-center items-start">
+    
+      <div className="w-1/2 bg-[#f1f2ed] p-8 flex flex-col justify-center items-start">
         <div className="text-5xl font-bold text-blue-700">Welcome Packaging Solution</div>
         <h2 className="text-3xl font-semibold mb-2">Akshay Sonekar</h2>
         <p className="text-lg">
@@ -44,8 +44,8 @@ function Page() {
         </p>
       </div>
 
-      {/* Right Box: Contact Form */}
-      <div className="w-1/2 bg-white p-8 flex flex-col justify-center">
+     
+      <div className="w-1/2 bg-[#f1f2ed] p-8 flex flex-col justify-center">
         <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
         <form className="space-y-4" onSubmit={handleSubmit}>
           <input
