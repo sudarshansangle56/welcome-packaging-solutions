@@ -37,7 +37,7 @@ function Page() {
     <div className="w-full h-screen flex">
     
       <div className="w-1/2 bg-[#f1f2ed] p-8 flex flex-col justify-center items-start">
-        <div className="text-5xl font-bold text-blue-700">Welcome Packaging Solution</div>
+        <div className="text-5xl font-bold text-[#0f0f10e9] ">Welcome Packaging Solution</div>
         <h2 className="text-3xl font-semibold mb-2">Akshay Sonekar</h2>
         <p className="text-lg">
           Mob: <a href="tel:9970346555" className="text-blue-600 underline">9970346555</a>
@@ -46,7 +46,7 @@ function Page() {
 
      
       <div className="w-1/2 bg-[#f1f2ed] p-8 flex flex-col justify-center">
-        <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
+        <h2 className="text-3xl font-semibold mb-4">Contact Us</h2>
         <form className="space-y-4" onSubmit={handleSubmit}>
           <input
             type="text"
